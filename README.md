@@ -43,6 +43,11 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 
 If you discover any security related issues, please email sergiturbadenas@gmail.com instead of using the issue tracker.
 
+## Based on 
+
+- https://laracasts.com/series/whip-monstrous-code-into-shape
+- https://laracasts.com/series/whip-monstrous-code-into-shape/episodes/19
+
 ## Credits
 
 - [Sergi Tur Badenas][link-author]

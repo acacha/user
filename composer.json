@@ -1,7 +1,7 @@
 {
     "name": "acacha/user",
     "type": "library",
-    "description": "A booster User for Laravel",
+    "description": "A boosted User for Laravel",
     "keywords": [
         "acacha",
         "user"
@@ -12,12 +12,13 @@
         {
             "name": "Sergi Tur Badenas",
             "email": "sergiturbadenas@gmail.com",
-            "homepage": "http:://acacha.org",
+            "homepage": "https://github.com/acacha",
             "role": "Developer"
         }
     ],
     "require": {
-        "php" : "~5.6|~7.0"
+        "php" : "~5.6|~7.0",
+        "illuminate/support": "~5.0"
     },
     "require-dev": {
         "phpunit/phpunit" : "~4.0||~5.0",
