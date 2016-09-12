@@ -5,7 +5,7 @@ namespace Acacha\User;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class User extends Authenticatable
+class GuestUser extends Authenticatable
 {
     use Notifiable;
 
