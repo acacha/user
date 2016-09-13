@@ -2,19 +2,24 @@
 
 namespace Acacha\User\Providers;
 
+use Acacha\User\Http\Middleware\GuestUser;
+use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * Class GuestUserProvider
+ * @package Acacha\User\Providers
+ */
 class GuestUserProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
      *
-     * @return void
+     * @param Router $router
      */
-    public function boot()
+    public function boot(Router $router)
     {
-        view()->share('signedIn',auth()->check());
-        view()->share('user', auth()->user() ?: new \Acacha\User\GuestUser);
+        $router->pushMiddlewareToGroup('web',GuestUser::class);
     }
 
     /**
