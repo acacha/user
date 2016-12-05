@@ -45,6 +45,7 @@ If you discover any security related issues, please email sergiturbadenas@gmail.
 
 ## Based on 
 
+GuestUser/NullUser desgin pattern:
 - https://laracasts.com/series/whip-monstrous-code-into-shape
 - https://laracasts.com/series/whip-monstrous-code-into-shape/episodes/19
 
