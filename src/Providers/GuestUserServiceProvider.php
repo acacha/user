@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 
 /**
  * Class GuestUserServiceProvider.
- * 
+ *
  * @package Acacha\User\Providers
  */
 class GuestUserServiceProvider extends ServiceProvider
