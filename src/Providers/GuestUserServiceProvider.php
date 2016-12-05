@@ -7,10 +7,11 @@ use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Class GuestUserProvider
+ * Class GuestUserServiceProvider.
+ * git statu
  * @package Acacha\User\Providers
  */
-class GuestUserProvider extends ServiceProvider
+class GuestUserServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
