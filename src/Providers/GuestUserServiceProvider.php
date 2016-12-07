@@ -20,7 +20,7 @@ class GuestUserServiceProvider extends ServiceProvider
      */
     public function boot(Router $router)
     {
-        $router->pushMiddlewareToGroup('web',GuestUser::class);
+        $router->pushMiddlewareToGroup('web', GuestUser::class);
     }
 
     /**

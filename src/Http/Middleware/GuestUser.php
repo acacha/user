@@ -19,7 +19,7 @@ class GuestUser
      */
     public function handle($request, Closure $next)
     {
-        view()->share('signedIn',auth()->check());
+        view()->share('signedIn', auth()->check());
         view()->share('user', auth()->user() ?: new \Acacha\User\GuestUser);
         return $next($request);
     }
